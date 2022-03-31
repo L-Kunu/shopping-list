@@ -11,12 +11,15 @@ export default function AddItem({ onAddItem }) {
 
   return (
     <form onSubmit={handleSubmit}>
-      <label htmlFor='new-item'>What else do you need? Add it here...</label>
+      <label htmlFor='new-item' className='Add-Text'>
+        What else do you need? Add it here...
+      </label>
       <input
         type='text'
         id='new-item'
         onChange={(event) => setItem(event.target.value)}
         value={item}
+        className='input-area'
       />
       <button>Add</button>
     </form>

@@ -1,0 +1,11 @@
+.input-area {
+  border: 2px solid grey;
+}
+
+.Add-Text {
+  font-family: "Roboto", sans-serif;
+}
+
+button {
+  border-radius: 10px;
+}
